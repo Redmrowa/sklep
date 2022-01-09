@@ -1,0 +1,233 @@
+html, body, div, span, applet, object,
+iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+pre, a, abbr, acronym, address, big, cite,
+code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b,
+u, i, center, dl, dt, dd, ol, ul, li, fieldset,
+form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, article, aside,
+canvas, details, embed, figure, figcaption,
+footer, header, hgroup, menu, nav, output, ruby,
+section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;}
+
+    input[type="number"],
+	input[type="submit"],
+
+	button,
+	.button {
+		
+		background-color: transparent;
+		border-radius: 5px;
+		border: 0;
+		box-shadow: inset 0 0 0 2px #fff;
+		color: #fff;
+		cursor: pointer;
+		display: inline-block;
+		font-size: 0.8em;
+		font-weight: 400;
+		height: 2.125em;
+		letter-spacing: 0.25em;
+		line-height: 2.125em;
+		max-width: 30em;
+		padding: 0 2.75em;
+		text-align: center;
+		text-decoration: none;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+        font-family: 'Impact';
+        background-color: goldenrod;
+	}
+input[type="number"].primary,
+input[type="submit"].primary,
+		button.primary,
+		.button.primary {
+            border-radius: 5px;
+		    border: 0; 
+			box-shadow: none !important;
+			color: #ffffff !important;
+            
+		}
+.login{
+    display: block;
+    width: 900px;
+    height: 900px; 
+    padding: 10em 0 0 0;
+    
+}
+
+.koszyk1{
+    
+    font-family: 'Impact';
+    text-align: left;
+
+    color: white;
+    background-color: grey;
+    padding: 1em 2em 1em 2em;
+    width: 100%;
+    height: 100%;
+}
+h1{
+    font-family: 'Impact';
+    font-size: 40px;
+    color: white;
+}
+h3{
+    
+    font-size: 25px;
+    color: white;
+    
+}
+h4{
+    font-family: 'Impact';
+    font-size: 20px;
+    color: white;
+}
+.listyiformularze{
+    background-color: #1d242a;
+     font-family: "Impact";
+    font-size-adjust: 30px;
+    color: white;
+    padding: 1em 2em 1em 2em;
+    margin: 0 0 1em 0;
+}
+.logout{
+    background-color: #1d242a;
+    text-align: right;
+    display:inline-block;
+    
+}
+.info{
+     background-color: #1d242a;
+    font-family: "Impact";
+    text-align: left;
+    display:inline-block;
+   width: 90%
+}
+header{
+    
+    padding: 1em 0 1em 0 ;
+		background-color: #1d242a;
+    
+    color: #fff;
+		font-weight: 800;
+		line-height: 1em;
+		margin: 1em 0 1em 0;
+    
+}
+
+.glowny{
+    text-align: center;
+    background-color: chocolate;
+     font-family: "Impact";
+    display:block;
+    float: none;
+    padding: 1em 2em 1em 2em;
+    border-image: 1em;
+   
+}
+body {
+	line-height: 1;
+}
+
+ol, ul {
+
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+	blockquote:before, blockquote:after, q:before, q:after {
+		content: '';
+		content: none;
+	}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	-webkit-text-size-adjust: none;
+    
+}
+
+mark {
+	background-color: transparent;
+	color: inherit;
+}
+
+input::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
+
+input, select, textarea {
+	-moz-appearance: none;
+	-webkit-appearance: white;
+	-ms-appearance: none;
+	appearance: none;
+}
+
+/* Basic */
+
+	@-ms-viewport {
+		width: device-width;
+	}
+
+	html {
+		box-sizing: border-box;
+	}
+
+	*, *:before, *:after {
+		box-sizing: inherit;
+	}
+#footer {
+    margin: 1EM 0 0 0;
+		padding: 1em 0 1em 0 ;
+		background-color: #1d242a;
+		text-align: center;
+        color: rgba(255, 255, 255, 0.5);
+        letter-spacing: 0.225em;
+        list-style: none;
+    
+	}
+
+		#footer .icons {
+			color: rgba(255, 255, 255, 0.5);
+			font-size: 25px;
+			letter-spacing: 0.225em;
+			list-style: none;
+			padding: 0 0 1em 0;
+            text-transform: uppercase;}
+		
+
+			#footer .icons a {
+				color: rgba(255, 255, 255, 0.5);
+			}
+
+				#footer .icons a:hover {
+					color: #fff;
+				}
+
+		
+		#footer .copyright {
+			color: rgba(255, 255, 255, 0.5);
+			font-size: 25px;
+			letter-spacing: 0.225em;
+			list-style: none;
+			padding: 0;
+            text-transform: uppercase;}
+		
+	
